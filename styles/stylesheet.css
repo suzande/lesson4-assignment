@@ -1,0 +1,89 @@
+<style>
+    header {
+        font-family: Arial, sans-sans-serif;
+        color: white;
+        background-color: DarkCyan;
+        padding-top: 3em;
+        padding-right: 3em;
+        padding-bottom: 2em;
+        padding-left: 4em;
+    }
+    h1 {
+        color:white;
+        font-family: Arial, sans-sans-serif;
+        font-size: 5px;
+        background-color:
+        padding-top: 3em;
+        padding-right: 3em;
+        padding-bottom: 2em;
+        padding-left: 4em;
+    }
+    h2 {
+        color:white;
+        font-family: Arial, sans-sans-serif;
+        font-size: 3px;
+        padding-top: 3em;
+        padding-right: 3em;
+        padding-bottom: 2em;
+        padding-left: 4em;
+    }
+    h3 {
+        color: black;
+        font-family: Arial, sans-sans-serif;
+        font-size: 2px;
+        padding-top: 3em;
+        padding-right: 3em;
+        padding-bottom: 2em;
+        padding-left: 4em;
+    }
+    nav.top {
+        background-color: LightGray;
+        color: black;
+    }
+    nav.bottom {
+        background-color: black;
+        color: white;
+    }
+    a[href].black {
+        color: black;
+        font-family: Arial, sans-sans-serif;
+        }
+    a[href].footer {
+        color: white;
+        font-style: bold;
+        font-family: Arial, sans-sans-serif;
+    }
+    a[href].sidebar {
+        color: DarkCyan;
+        font-family: Arial, sans-sans-serif;
+        font-size: 2em;
+    }
+    p.bold {
+        color: DarkCyan;
+        font-weight: bold;
+        font-family: Arial, sans-sans-serif;
+    }
+    p.quote {
+        color: DarkCyan;
+        font-size: 3px;
+        font-family: Arial, sans-sans-serif;
+    }
+    p.plain-text {
+        color: black;
+        font-family: Arial, sans-sans-serif;
+    }
+    p.footer {
+        color: white;
+        background-color: black;
+
+    }
+
+
+
+
+
+
+
+
+
+</style>
