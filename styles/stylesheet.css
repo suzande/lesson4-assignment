@@ -3,110 +3,142 @@
         font-family: Arial, Helvetica, sans-serif;
         color: white;
         background-color: DarkCyan;
-        padding-top: 3em;
-        padding-right: 3em;
-        padding-bottom: 2em;
-        padding-left: 4em;
+        padding: 3em 3em 2em 4em;
+        margin: 0em;
     }
-    .name-page {
+    h1 {
         color: white;
         font-family: Arial, Helvetica, sans-serif;
         font-size:40px;
         font-weight: bold;
         background-color: lightseagreen;
-        padding-top: 2em;
-        padding-right: 3em;
-        padding-bottom: .5em;
-        padding-left: 3em
+        padding: 2em 3em .5em 3em;
+        margin: 0em;
     }
-    .name-subtitle {
+    h2 {
         color:white;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 24px;
         font-style: italic;
         background-color: lightseagreen;
-        padding-top: .5em;
-        padding-right: 3em;
-        padding-bottom: 2em;
-        padding-left: 5em;
-        margin-top: 0em;
+        padding: 0 1em 1em 5em;
+        margin: 0em;
     }
-    .h3 {
+    h3 {
         color: black;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 18px;
-        padding-top: 2em;
-        padding-right: 3em;
-        padding-bottom: 0em;
-        padding-left: 6em;
+        padding: 2em 3em 0em 6em;
+        margin: 0;
     }
+    h4 {
+        font-size: 0;
+    }
+
     nav.top {
         background-color: LightGray;
         color: black;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        padding-top: 2em;
-        padding-left: 7em;
-        padding-right: 10em;
-        padding-bottom: 2em;
+        padding: 2em 5em 2em 7em;
+        padding-right: 30px
+        display: inline;
+    }
+    .top-link {
+        padding-left: 2em;
+        color: black;
+        font-size: 12pt;
+        margin: 0;
+    }
+    .tab-bottom {
+        margin-left: 3.5em;
+        color: white;
+        font-size: 8pt;
+        margin: 0;
     }
     nav.bottom {
         background-color: black;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        padding-top: 2em;
-        padding-left: 7em;
-        padding-bottom: 2em;
+        padding-top: 2em 0 7em 2em;
+        text-align: center;
+        margin: 0;
     }
+    .caption{
+        color: black;
+        padding-left: 7em;
+    }
+
     p.bold {
         color: DarkCyan;
         font-size: 16px;
         line-height: 9pt;
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
-        padding-left: 7em;
+        padding: 0 0 0 7em;
+        margin-bottom: 1.5em;
+        margin-top: .5em;
     }
     p.quote {
         color: DarkCyan;
         font-size: 18px;
         font-family: Arial, Helvetica, sans-serif;
         line-height: 0pt;
-        padding-top: .3em;
-        padding-bottom: .3em;
-        padding-left: 6em;
+        padding: .3em 0 .3em 6em;
+        margin-top: 1em;
     }
     p.plain-text {
         color: black;
         font-size: 11pt;
         font-family: Arial, Helvetica, sans-serif;
         line-height: 8pt;
-        padding-left: 7em;
+        padding-left: 7.5em;
     }
 
     p.plain-text-white {
-        color: white;
-        font-size: 20pt;
+        font-size: 12pt;
         font-family: Arial, Helvetica, sans-serif;
         line-height: 8pt;
-        padding-left: 7em;
+        text-align: center;
     }
+    .bottom-article {
+        color: white;
+        background-color: black;
+        padding: 2em 0 2em 0;
+        justify-content: center;
+    }
+    .center-article {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text-center {
+        color: white;
+        text-align: center;
+        background: black;
+        padding: 2em 0 2em 0;
+    }
+
     p.footer {
         color: white;
         background-color: black;
+        padding: 1.5em 0 1.5em 0
+        margin: 0;
     }
     .word-color {
         color: DarkCyan;
-    }
-    img {
-        padding-top: .3em;
-        padding-bottom: .3em;
-        padding-left: 7em;
+        padding-left: 6em:
+        font-size: 11pt;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 8pt;
     }
     .bottom {
         color: white;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20pt;
         background-color: black;
+        margin: 0em;
     }
 </style>
